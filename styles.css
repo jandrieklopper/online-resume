@@ -19,6 +19,7 @@
 .ml-5 {
   margin-left: $spacer * 3 !important;
 }
+
 .section-title {
     font-size: 1.5em;
     margin-top: 20px;
@@ -47,10 +48,17 @@ a:hover {
   color: #03a9f4;
 }
 
-.contact-icons, .icons-small {
+.contact-icons {
     display: inline-block;
     width: 30px;
     font-size: 18px;
+}
+
+.icons-small {
+    display: inline-block;
+    margin-left: 5px;
+    width: 20px;
+    font-size: 16px;
 }
 
 .icons-xl {
@@ -69,12 +77,18 @@ a:hover {
     color: #003147;
 }
 
-.right-column h3{
-    font-size: 1em;
-    margin-top: 20px;
-    font-weight: 500;
-    line-height: 1.4em;
+.resume-section {
+  padding: 3px 0px;
 }
 
+.resume-section h3{
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
 
-           
+.date {
+  font-size: 0.9em;
+}
