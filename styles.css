@@ -1,64 +1,29 @@
-<!-- Import the Google Font "Poppins" -->
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
+    font-size: 1;
 }
 
-/* Custom styles */
 .left-column {
-   background-color: #003147;
-   color: white;
-
-}
-
-.ml-5 {
-  margin-left: $spacer * 3 !important;
+    background-color: #003147;
+    color: white;
 }
 
 .section-title {
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.4em;
 }
 
-.profile-image {
-    max-width: 100%;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-}
-
-a:link {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  color: #03a9f4;
-}
-
-.contact-icons {
+.contact-icons, .icons-small {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-}
-
-.icons-small {
-    display: inline-block;
-    margin-left: 5px;
-    width: 20px;
-    font-size: 16px;
 }
 
 .icons-xl {
@@ -72,23 +37,24 @@ a:hover {
     color: #03a9f4;
 }
 
+a:link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #03a9f4;
+  }
+
 /* Dark blue color for section titles in the right column */
 .right-column h2, h3 {
     color: #003147;
 }
 
-.resume-section {
-  padding: 3px 0px;
-}
-
-.resume-section h3{
-    font-size: 1.3em;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: 500;
-    line-height: 1.2em;
-}
-
-.date {
-  font-size: 0.9em;
+.right-column h3{
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 1.4em;
 }
